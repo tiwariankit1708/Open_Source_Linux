@@ -5,12 +5,12 @@
 # Software Choice: Git
 
 # --- Variables ---
-# Specific details for audit [cite: 106, 107]
+# Specific details for audit 
 STUDENT_NAME="Krishna"
 SOFTWARE_CHOICE="Git"
 
 # --- System info ---
-# Capturing real-time system data using command substitution [cite: 109, 110, 111]
+# Capturing real-time system data using command substitution 
 KERNEL=$(uname -r)
 USER_NAME=$(whoami)
 UPTIME=$(uptime -p)
@@ -22,7 +22,7 @@ DISTRO=$(lsb_release -ds)
 CURRENT_DATE=$(date "+%Y-%m-%d %H:%M:%S")
 
 # --- Display ---
-# Formatting the output for the report screenshot [cite: 114, 117]
+# Formatting the output for the report screenshot 
 echo "=========================================="
 echo "    Open Source Audit - $STUDENT_NAME     "
 echo "=========================================="

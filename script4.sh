@@ -31,7 +31,7 @@ echo "--- Analyzing $LOGFILE for keyword: '$KEYWORD' ---"
 while IFS= read -r LINE; do
     # 'grep -iq' checks for the keyword (case-insensitive and quiet)
     if echo "$LINE" | grep -iq "$KEYWORD"; then
-        # Incrementing the counter variable [cite: 166, 181]
+        # Incrementing the counter variable
         COUNT=$((COUNT + 1))
     fi
 done < "$LOGFILE"
