@@ -1,8 +1,8 @@
-# oss-audit-24BCE10678
+#Ankit Kumar Tiwari 24bce11225
 
 This is my Open Source Software lab repo for auditing **Git** on **Ubuntu 24.04 (WSL2)**.
 
-I’m **Krishna** (`krishna`, reg no `24BCE10678`). I wrote a few small shell scripts to pull basic system info, check package info, audit a couple of directories, and scan a log file for keyword matches.
+I’m **Ankit Tiwari** (`Ankit`, reg no `24BCE11225`). I wrote a few small shell scripts to pull basic system info, check package info, audit a couple of directories, and scan a log file for keyword matches.
 
 ## What’s inside
 
@@ -11,11 +11,11 @@ I’m **Krishna** (`krishna`, reg no `24BCE10678`). I wrote a few small shell sc
 - `script3.sh` - Disk and Permission Auditor for a few common folders
 - `script4.sh` - Log file analyzer (counts keyword matches)
 - `script5.sh` - Open Source Manifesto Generator (interactive)
-- `manifesto_krishna.txt` - Example output from the manifesto generator
+- `Ankit_24bce11225.txt` - Example output from the manifesto generator
 
 ## How to run the scripts
 
-From the repo directory (`/home/krishna/oss-audit-24BCE10678`):
+From the repo directory (`https://github.com/tiwariankit1708/Open_Source_Linux`):
 
 1. Make them executable (one-time):
    - `chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh`
